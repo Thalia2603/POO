@@ -1,8 +1,8 @@
 package org.example
 
 fun main() {
-   /* // Ejemplos de ejecución, voy a forzar las entradas del usuario
-    val p1 = Persona()
+ /*  // Ejemplos de ejecución, voy a forzar las entradas del usuario
+    val p1 = Persona("4444444W","Thalia","Bravo",21,true)
     val p2 = Persona("Thalia", "Bravo")
 
     println("Ejemplo de ejecución 1: $p1")
@@ -10,8 +10,8 @@ fun main() {
     p1.aniversario()
     println("$p1")
     p2.casamiento()
-    println("$p2")*/
-
+    println("$p2")
+*/
 
     /////////////////////////////////////////////////
     /////////////////////////////////////////////////

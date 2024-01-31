@@ -43,9 +43,9 @@ class Persona {
     }*/
 
     // Declaración de los constructores
-    constructor() {
-
-    } // Sin parámetros
+    /* constructor() {
+        // Sin parámetros
+    } */
 
     //constructor(nombre: String, apellido: String) : this("", nombre, apellido) // Solo nombre y apellido como parámetros
     //constructor(dni: String,nombre: String,apellido: String,edad: Int,estadoCivil: Boolean):this(){
