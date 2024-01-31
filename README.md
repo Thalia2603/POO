@@ -12,4 +12,4 @@
 ### UTILITIES
 ### CONSOLE COLORS
 ### FUNCTIONS 
-  Contiene las funciones de circulo (menu principal y las diferentes opciones del menu)
+    - Contiene las funciones de circulo (menu principal y las diferentes opciones del menu)
