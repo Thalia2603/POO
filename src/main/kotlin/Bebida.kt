@@ -33,4 +33,15 @@ class Bebida {
     fun contieneAzucar(){
         esAzucarada=true
     }
+    fun gettPrecio():Float{
+        return precio
+    }
+
+    fun gettNombre():String{
+        return nombre
+    }
+
+    fun gettAzucar():Boolean{
+        return esAzucarada
+    }
 }
