@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="004e9d18-f326-445c-9f7c-c270d7c6641d" name="Changes" comment="change constructors and Main.kt">
+    <list default="true" id="004e9d18-f326-445c-9f7c-c270d7c6641d" name="Changes" comment="added dokka on classes Persona and Circulo">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Bebida.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Pasta.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Circulo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Circulo.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Persona.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Persona.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +24,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -106,12 +107,21 @@
       <option name="project" value="LOCAL" />
       <updated>1706689414913</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added dokka on classes Persona and Circulo">
+      <option name="closed" value="true" />
+      <created>1706690390692</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1706690390692</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="change constructors" />
     <MESSAGE value="change constructors and Main.kt" />
-    <option name="LAST_COMMIT_MESSAGE" value="change constructors and Main.kt" />
+    <MESSAGE value="added dokka on classes Persona and Circulo" />
+    <option name="LAST_COMMIT_MESSAGE" value="added dokka on classes Persona and Circulo" />
   </component>
 </project>
