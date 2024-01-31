@@ -1,12 +1,22 @@
 package org.example
-class Persona(
+class Persona {
     // Declaración de los atributos de PERSONA
-    var dni: String = "",
-    var nombre: String = "",
-    var apellido: String = "",
-    var edad: Int = 0,
-    var estadoCivil: Boolean = false
-) {
+    private var dni: String = ""
+    private var nombre: String = ""
+    private var apellido: String = ""
+    private var edad: Int = 0
+    private var estadoCivil: Boolean = false
+
+
+    /*  //valores por dejecto
+    init {
+        dni="4444444W"
+        nombre="Thalia"
+        apellido="Soler"
+        edad=21
+        estadoCivil=true
+    }*/
+
     // Declaración de los métodos
     fun aniversario() { // Cuando es aniversario, se suma un año a edad
         edad++
@@ -25,8 +35,31 @@ class Persona(
         return "DNI= $dni, NOMBRE=$nombre, APELLIDO=$apellido, EDAD= $edad, ESTADO CIVIL=$estadoCivil"
     }
 
-    // Declaración de los constructores
-    constructor() : this("", "", "") // Sin parámetros
+    /* private fun calcDNI(nombre: String,apellido: String):String{
+        var dni:String
+        if (nombre.length>0){
 
-    constructor(nombre: String, apellido: String) : this("", nombre, apellido) // Solo nombre y apellido como parámetros
+        }
+    }*/
+
+    // Declaración de los constructores
+    constructor() {
+
+    } // Sin parámetros
+
+    //constructor(nombre: String, apellido: String) : this("", nombre, apellido) // Solo nombre y apellido como parámetros
+    //constructor(dni: String,nombre: String,apellido: String,edad: Int,estadoCivil: Boolean):this(){
+
+    constructor(nombre: String, apellido: String) {
+        this.nombre = nombre
+        this.apellido = apellido
+    }
+
+    constructor(dni: String, nombre: String, apellido: String, edad: Int, estadoCivil: Boolean) {
+        this.dni = dni
+        this.nombre = nombre
+        this.apellido = apellido
+        this.edad = edad
+        this.estadoCivil = estadoCivil
+    }
 }
