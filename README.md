@@ -2,6 +2,7 @@
 # ARCHIVOS DEL DIRECTORIO
 
 ### PRIMERA CLASE PERSONA
+![image](https://github.com/Thalia2603/primerEjercicioClases/assets/153110473/c612b1ef-07fd-499b-8751-96ff5d34b9fb)
 ### SEGUNDA CLASE CIRCULO 
 ### TERCERA CLASE PASTA
 ![image](https://github.com/Thalia2603/primerEjercicioClases/assets/153110473/da2d3a9e-00c4-40a6-a5c8-ae9eacc38d74)
