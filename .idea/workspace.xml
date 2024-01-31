@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="004e9d18-f326-445c-9f7c-c270d7c6641d" name="Changes" comment="added classes Pasta and Bebida">
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Bebida.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Bebida.kt" afterDir="false" />
+    <list default="true" id="004e9d18-f326-445c-9f7c-c270d7c6641d" name="Changes" comment="added on Bebida all setters and getters">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/functions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/functions.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/utilities.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/utilities/utilities.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +62,7 @@
 }]]></component>
   <component name="RunManager">
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.MainKt" />
+      <option name="MAIN_CLASS_NAME" value="org.example.controllers.MainKt" />
       <module name="EA4.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -120,7 +122,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706693541607</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added on Bebida all setters and getters">
+      <option name="closed" value="true" />
+      <created>1706694022357</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1706694022357</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -128,6 +138,7 @@
     <MESSAGE value="change constructors and Main.kt" />
     <MESSAGE value="added dokka on classes Persona and Circulo" />
     <MESSAGE value="added classes Pasta and Bebida" />
-    <option name="LAST_COMMIT_MESSAGE" value="added classes Pasta and Bebida" />
+    <MESSAGE value="added on Bebida all setters and getters" />
+    <option name="LAST_COMMIT_MESSAGE" value="added on Bebida all setters and getters" />
   </component>
 </project>

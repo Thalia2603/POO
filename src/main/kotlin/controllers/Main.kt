@@ -1,4 +1,7 @@
-package org.example
+package org.example.controllers
+
+import org.example.models.Bebida
+import org.example.models.Pasta
 
 fun main() {
  /* MAIN CLASE PERSONA
@@ -23,13 +26,13 @@ fun main() {
         circuloActual = mainMenuOptions(op, circuloActual)
     } while (op != 6)*/
 
-    val croissant=Pasta("Croissant",0.25f,125f)
-    val ensaimada=Pasta("Ensaimada",0.15f,145f)
-    val donut=Pasta("Donut",0.35f,125.45f)
-    val agua=Bebida("Agua",1.00f)
-    val cafe=Bebida("Café",1.35f)
-    val teRojo=Bebida("Te rojo",1.50f)
-    val cola=Bebida("Coca Cola",1.65f)
+    val croissant= Pasta("Croissant",0.25f,125f)
+    val ensaimada= Pasta("Ensaimada",0.15f,145f)
+    val donut= Pasta("Donut",0.35f,125.45f)
+    val agua= Bebida("Agua",1.00f)
+    val cafe= Bebida("Café",1.35f)
+    val teRojo= Bebida("Te rojo",1.50f)
+    val cola= Bebida("Coca Cola",1.65f)
     cola.contieneAzucar()
     println(croissant)
     println(ensaimada)

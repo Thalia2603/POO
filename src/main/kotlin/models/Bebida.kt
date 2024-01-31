@@ -1,4 +1,4 @@
-package org.example
+package org.example.models
 
 class Bebida {
     private var nombre:String=""

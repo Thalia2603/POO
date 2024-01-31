@@ -1,4 +1,4 @@
-package org.example
+package org.example.models
 
 /**
  * Declaracion de la clase Persona con sus métodos aniversario(),casamiento(),divorcio() y toString(). Y sus atributos propios dni,nombre,apellido,edad y estadoCivil

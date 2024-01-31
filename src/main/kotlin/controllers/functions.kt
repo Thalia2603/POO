@@ -1,4 +1,8 @@
-package org.example
+package org.example.controllers
+
+import org.example.models.Circulo
+import org.example.utilities.readDouble
+import org.example.utilities.readWord
 
 fun mainMenuOptions(op: Int, circuloActual: Circulo?): Circulo? {
     var circulo = circuloActual // Inicializar la variable temporal

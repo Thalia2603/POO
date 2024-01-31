@@ -1,6 +1,4 @@
-package org.example
-
-import java.security.Principal
+package org.example.utilities
 
 /**
  *This function prints welcome in blue
@@ -35,7 +33,7 @@ fun endOfProgramMessage(){
  */
 fun messageErrorDT(){
     //funcion que es llamada cuando el tipo de dato es incorrecto
-    println(RED_BOLD+"El tipo de dato no es correcto, vuelva a intentarlo"+RESET)
+    println(RED_BOLD +"El tipo de dato no es correcto, vuelva a intentarlo"+ RESET)
 }
 
 /**
@@ -45,5 +43,5 @@ fun messageErrorDT(){
  */
 fun messageErrorRange(){
     //funcion que es llamada cuando el tipo de dato esta fuera del rango establecido
-    println(YELLOW_BOLD+"El tipo de dato no es correcto, vuelva a intentarlo"+RESET)
+    println(YELLOW_BOLD +"El tipo de dato no es correcto, vuelva a intentarlo"+ RESET)
 }

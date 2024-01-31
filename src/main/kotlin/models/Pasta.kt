@@ -1,4 +1,4 @@
-package org.example
+package org.example.models
 
 /**
  * Declaracion de la clase Pasta
