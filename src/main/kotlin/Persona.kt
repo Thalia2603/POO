@@ -1,23 +1,20 @@
 package org.example
+
+/**
+ * Declaracion de la clase Persona con sus métodos aniversario(),casamiento(),divorcio() y toString(). Y sus atributos propios dni,nombre,apellido,edad y estadoCivil
+ * @author Thalia Bravo
+ */
 class Persona {
-    // Declaración de los atributos de PERSONA
+
     private var dni: String = ""
     private var nombre: String = ""
     private var apellido: String = ""
     private var edad: Int = 0
     private var estadoCivil: Boolean = false
-
-
-    /*  //valores por dejecto
-    init {
-        dni="4444444W"
-        nombre="Thalia"
-        apellido="Soler"
-        edad=21
-        estadoCivil=true
-    }*/
-
-    // Declaración de los métodos
+    /**
+     * Declaracion de los métodos aniversario(),casamiento(),divorcio() y toString()
+     * @author Thalia Bravo
+     */
     fun aniversario() { // Cuando es aniversario, se suma un año a edad
         edad++
     }
@@ -34,22 +31,10 @@ class Persona {
         // Retornamos un texto con el valor que tiene la clase persona en ese momento
         return "DNI= $dni, NOMBRE=$nombre, APELLIDO=$apellido, EDAD= $edad, ESTADO CIVIL=$estadoCivil"
     }
-
-    /* private fun calcDNI(nombre: String,apellido: String):String{
-        var dni:String
-        if (nombre.length>0){
-
-        }
-    }*/
-
-    // Declaración de los constructores
-    /* constructor() {
-        // Sin parámetros
-    } */
-
-    //constructor(nombre: String, apellido: String) : this("", nombre, apellido) // Solo nombre y apellido como parámetros
-    //constructor(dni: String,nombre: String,apellido: String,edad: Int,estadoCivil: Boolean):this(){
-
+    /**
+     * Declaracion de los contructores primario y secundario
+     * @author Thalia Bravo
+     */
     constructor(nombre: String, apellido: String) {
         this.nombre = nombre
         this.apellido = apellido

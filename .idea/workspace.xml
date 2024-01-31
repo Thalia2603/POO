@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="004e9d18-f326-445c-9f7c-c270d7c6641d" name="Changes" comment="change constructors">
+    <list default="true" id="004e9d18-f326-445c-9f7c-c270d7c6641d" name="Changes" comment="change constructors and Main.kt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Circulo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Circulo.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Persona.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Persona.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,6 +60,20 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.MainKt" />
+      <module name="EA4.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.MainKt" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -84,11 +98,20 @@
       <option name="project" value="LOCAL" />
       <updated>1706688804087</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="change constructors and Main.kt">
+      <option name="closed" value="true" />
+      <created>1706689414913</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1706689414913</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="change constructors" />
-    <option name="LAST_COMMIT_MESSAGE" value="change constructors" />
+    <MESSAGE value="change constructors and Main.kt" />
+    <option name="LAST_COMMIT_MESSAGE" value="change constructors and Main.kt" />
   </component>
 </project>
